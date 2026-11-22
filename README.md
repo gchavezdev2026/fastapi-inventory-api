@@ -157,6 +157,13 @@ pytest -v
 
 ---
 
-## 📄 Licencia
+## 🌍 Estándares del Proyecto
+
+**Todos los servicios y componentes deben incluir configuración para despliegue en contenedores.** Esto significa que:
+
+- Debe existir un archivo `Dockerfile` o configuración de Podman/Docker Compose para cada servicio.
+- La documentación debe incluir comandos claros para levantar el servicio vía contenedores.
+- Las contribuciones futuras deben adherirse a este estándar para garantizar consistencia y facilidad de despliegue.
+
 
 Este proyecto se distribuye bajo la licencia **MIT**.
