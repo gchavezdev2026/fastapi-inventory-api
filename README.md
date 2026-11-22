@@ -93,7 +93,22 @@ El servidor estará disponible en: `http://127.0.0.1:8000`
 
 ---
 
-## 🌐 Documentación Interactiva
+## 🐳 Ejecución con Podman Compose
+
+Para iniciar la API usando contenedores con Podman Compose:
+
+```bash
+# Construir y levantar los servicios en segundo plano
+podman compose up -d
+
+# Ver logs en tiempo real
+podman compose logs -f
+
+# Detener y eliminar contenedores
+podman compose down
+```
+
+El servidor estará disponible en: `http://127.0.0.1:8000`
 
 Una vez ejecutado el servidor, accede a la documentación interactiva desde tu navegador:
 
